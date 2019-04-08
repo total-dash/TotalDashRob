@@ -1,0 +1,224 @@
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+
+}
+
+.header {
+  background: gold;
+}
+
+#burger {
+	float: left;
+}
+
+#searchSection {
+  background: black;
+  width: 100%;
+  height: 20px;
+}
+
+#search {
+	float: right;
+	vertical-align: middle;
+	display: inline;
+}
+
+#fas fa-plus-circle {
+  float: right;
+}
+.footer {
+  background: black;
+}
+.Seemore {float:right; border: none;
+}
+
+.main {
+  text-align: left;
+  background: white;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 100px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.aside-1 {
+  background: gold;
+}
+.box {
+    width: 300px; 
+    height: 200px;
+    background-color: white;
+    background-image: url(joes.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.line1 {
+  border-radius: 25px;
+  background: #000000;
+  padding: 0px; 
+  width: 93%;
+  height: 1px;
+}
+.aside-2 {
+  background: gold;
+    
+    /* The list of Pictures in the main menu */
+}
+.FrenchFries {
+    width: 50px; 
+    height: 50px;
+    background-image: url(FrenchFries.jpg);
+    background-position: center;
+    background-size: cover;
+}
+ .MozzoStix {
+    width: 50px; 
+    height: 50px;
+    background-color: white;
+    background-image: url(mozzostix.jpg);
+    background-position: center;
+    background-size: cover;
+}
+ .poppers {
+    width: 50px; 
+    height: 50px;
+    background-color: white;
+    background-image: url(poppers.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+ .BuffaloChicken {
+    width: 50px; 
+    height: 50px;
+    background-color: white;
+    background-image: url(BuffaloChicken.jpg);
+    background-position: center;
+    background-size: cover;
+}
+ .seafood {
+    width: 50px; 
+    height: 50px;
+    background-color: white;
+    background-image: url(seafood);
+    background-position: center;
+    background-size: cover;
+}
+ .shrimp {
+    width: 50px; 
+    height: 50px;
+    background-color: white;
+    background-image: url(shrimp.jpg);
+    background-position: center;
+    background-size: cover;
+}
+ .pancake {
+    width: 50px; 
+    height: 50px;
+    background-color: white;
+    background-image: url(pancake.jpg);
+    background-position: center;
+    background-size: cover;     
+} 
+.waffle {
+    width: 50px; 
+    height: 50px;
+    background-color: white;
+    background-image: url(waffle.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.omelette {
+    width: 50px; 
+    height: 50px;
+    background-color: white;
+    background-image: url(omelette.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.steak {
+    width: 50px; 
+    height: 50px;
+    background-color: white;
+    background-image: url(beef.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.chicken {
+    width: 50px; 
+    height: 50px;
+    background-color: white;
+    background-image: url(chicken393.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.MainSeafood {
+     width: 50px; 
+    height: 50px;
+    background-color: white;
+    background-image: url(seafood_main.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.boxer {
+    width: 300px; 
+    height: 200px;
+    background-color: gold;
+    background-image: url(rest1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.chick {
+    width: 300px; 
+    height: 200px;
+    background-color: gold;
+    background-image: url(rest2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 0 0; }
+
+}
+
+@media all and (min-width: 1366px) {
+  .main    { flex: 3 0px; }
+ }
+
+@media all and (min-width: 800px) {
+  .main    { flex: 2 0px; }
+  .aside-1 { order: 1; } 
+  .main    { order: 2; }
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }
+}
+
+body {
+  padding: 2em; 
+}
+
+.footer {color:white}

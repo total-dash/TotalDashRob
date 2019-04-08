@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+  <head>
+      <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+      <!-- Script -->
+      <script src="script.js"></script>
+        <!--JQuery -->
+        <script src="js.js"></script>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+    
+  <body>
+    <div class="wrapper">
+      <!-- Header Bar -->
+      <header class="header">Total Dash.com
+     <img id="burger" src="burger_icon.png" alt="Menu" height="20px" />    
+      </header>
+      
+ 
+      <section id="searchSection">
+      <!-- Search Bar -->  
+          <div id="search">
+              <input type="text" id="searchText" name="search" required size="30">
+              <button id="searchButton" type="button">Search</button>
+            </div>
+      </section>
+
+    <article class="main">
+        <h1>Joe's Steakshop</h1>
+          <div class="box"></div>
+        <h2> Menu Options</h2>
+        <ul>
+            <h3>Appetiziers</h3>
+            <div class="line1">
+            </div>
+                <div class="row">
+                    <div class="column">
+                        <div class="FrenchFries"></div>
+                        <p>French Fries</p>
+                        <p>3.00</p>
+                    </div>
+                    <div class="column">
+                        <div class="MozzoStix"></div>
+                        <p>Mozzos Stix</p>
+                        <p>3.25</p>
+                    </div>
+                    <div class="column">
+                        <div class="poppers"></div>
+                        <p>Poppers</p>
+                        <p>3.49</p>
+                    </div>
+                </div>
+            <button class="Seemore">
+            <i class="fas fa-plus-circle"></i>
+            </button>
+            <h3>Lunch</h3>
+            <div class="line1">
+            </div>
+             <div class="row">
+                  <div class="column">
+                    <div class="BuffaloChicken"></div>
+                    <p>Buffalo Chicken</p>
+                    <p>11.99</p>
+                  </div>
+                  <div class="column">
+                    <div class="seafood"></div>
+                    <p>Seafood Basket</p>
+                    <p>13.25</p>
+                  </div>
+                  <div class="column">
+                    <div class="shrimp"></div>
+                    <p>Shrimp Basket</p>
+                    <p>13.49</p>
+                  </div>
+            </div>
+            <button class="Seemore">
+            <i class="fas fa-plus-circle"></i>
+            </button>
+            <h3><br >Breakfast</h3>
+            <div class="line1">
+            </div>
+                <div class="row">
+                  <div class="column">
+                      <div class="waffle"></div>
+                    <p>Waffles</p>
+                      <p>13.99</p>
+                  </div>
+                  <div class="column">
+                      <div class="pancake"></div>
+                    <p>Pancakes</p>
+                    <p>13.25</p>
+                  </div>
+                  <div class="column">
+                      <div class="omelette"></div>
+                    <p>Omellette</p>
+                    <p>10.49</p>
+                    </div>
+                </div>
+            <button class="Seemore">
+            <i class="fas fa-plus-circle"></i>
+            </button>
+            <h3>Dinner</h3>
+            <div class="line1">
+            </div>
+            <div class="row">
+                  <div class="column">
+                    <div class="steak"></div>
+                    <p>Steak</p>
+                    <p>18.99</p>
+                  </div>
+                  <div class="column">
+                    <div class="chicken"></div>
+                    <p>Chicken</p>
+                    <p>17.99</p>
+                  </div>
+                  <div class="column">
+                    <div class="MainSeafood"></div>
+                    <p>Seafood</p>
+                    <p>16.99</p>
+                    </div>
+                </div>
+             <button class="Seemore">
+             <i class="fas fa-plus-circle"></i>
+            </button>
+        </ul> 
+    </article>
+      <aside class="aside aside-1"> 
+          <h3>Related Options</h3>
+          <div class="line1">
+          </div>
+          <h4>Phone Number:</h4>
+            <h5>519-456-8778</h5>
+        <h4>Hours of Operation</h4>
+          <div class="line1">
+          </div>
+          <p>Monday: Open from 10am - 12am</p>
+          <p>Tuesday: Open from 9am - 12am</p>
+          <p>Wednesday: Open from 10am - 12am</p>
+          <p>Thursday: Open from 9am - 12am</p>
+          <p>Friday: Open from 10am - 2am</p>
+          <p>Saturday: Open from 10am - 2am</p>
+          <p>Sunday: Open from 10am - 12am</p>
+          <p>Holidays: Open from 10am - 9pm</p>
+    </aside>
+      <aside class="aside aside-2">
+          <h3>Related Menus</h3>
+          <h4>Boston Market</h4>
+          <div class="boxer"></div>
+          <h4>Chick-Fil-A</h4>
+          <div class="chick"></div>
+        </aside>
+      <footer class="footer">Copyright of RMF 2019</footer>
+    </div>
+              <!-- Javascript -->
+{
+<script type= "text/javascript">
+    $(document).ready(function(){
+        $("#Seemore").click(function () {
+             $("#row").toggle();
+        });
+    });
+</script>
+}
+  </body>
+</html>
